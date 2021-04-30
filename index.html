@@ -15,20 +15,39 @@
     <title>Drum Machine</title>
   </head>
   <body>
-    <div id="drum-machine" class="container text-center">
+    <div
+      id="drum-machine"
+      class="container text-center border border-primary rounded py-5 my-5"
+      style="width: 50rem"
+    >
       <h1 class="text-center my-4">DRUM MACHINE</h1>
-      <div class="card my-3 mx-auto" style="width: 15rem">
-        <div class="card-body">
+      <div
+        class="card my-5 mx-auto border border-primary rounded"
+        style="width: 18rem"
+      >
+        <div class="card-body bg-primary text-white">
           <div id="display">Now playing...</div>
         </div>
       </div>
-      <button id="drum-1" class="drum-pad btn btn-primary" onclick="play('Q')">
+      <button
+        id="drum-1"
+        class="drum-pad btn btn-primary mx-2"
+        onclick="play('Q')"
+      >
         <audio src="./clip/181_hollywood.wav" id="Q" class="clip"></audio> Q
       </button>
-      <button id="drum-2" class="drum-pad btn btn-primary" onclick="play('W')">
+      <button
+        id="drum-2"
+        class="drum-pad btn btn-primary mx-2"
+        onclick="play('W')"
+      >
         <audio src="./clip/181_question.wav" id="W" class="clip"></audio> W
       </button>
-      <button id="drum-3" class="drum-pad btn btn-primary" onclick="play('E')">
+      <button
+        id="drum-3"
+        class="drum-pad btn btn-primary mx-2"
+        onclick="play('E')"
+      >
         <audio
           src="./clip/181_superdistort-offbreak.wav"
           id="E"
@@ -36,11 +55,19 @@
         ></audio>
         E
       </button>
-      <button id="drum-4" class="drum-pad btn btn-primary" onclick="play('A')">
+      <button
+        id="drum-4"
+        class="drum-pad btn btn-primary mx-2"
+        onclick="play('A')"
+      >
         <audio src="./clip/182_african-dance.wav" id="A" class="clip"></audio>
         A
       </button>
-      <button id="drum-5" class="drum-pad btn btn-primary" onclick="play('S')">
+      <button
+        id="drum-5"
+        class="drum-pad btn btn-primary mx-2"
+        onclick="play('S')"
+      >
         <audio
           src="./clip/182_ardkore_junglist.wav"
           id="S"
@@ -48,10 +75,18 @@
         ></audio>
         S
       </button>
-      <button id="drum-6" class="drum-pad btn btn-primary" onclick="play('D')">
+      <button
+        id="drum-6"
+        class="drum-pad btn btn-primary mx-2"
+        onclick="play('D')"
+      >
         <audio src="./clip/182_dirty_nasty.wav" id="D" class="clip"></audio> D
       </button>
-      <button id="drum-7" class="drum-pad btn btn-primary" onclick="play('Z')">
+      <button
+        id="drum-7"
+        class="drum-pad btn btn-primary mx-2"
+        onclick="play('Z')"
+      >
         <audio
           src="./clip/182_hihat-reverse-substitute.wav"
           id="Z"
@@ -59,7 +94,11 @@
         ></audio>
         Z
       </button>
-      <button id="drum-8" class="drum-pad btn btn-primary" onclick="play('X')">
+      <button
+        id="drum-8"
+        class="drum-pad btn btn-primary mx-2"
+        onclick="play('X')"
+      >
         <audio
           src="./clip/182_shuffly-kitchen-shaker-3-4-beat.wav"
           id="X"
@@ -67,10 +106,15 @@
         ></audio>
         X
       </button>
-      <button id="drum-9" class="drum-pad btn btn-primary" onclick="play('C')">
+      <button
+        id="drum-9"
+        class="drum-pad btn btn-primary mx-2"
+        onclick="play('C')"
+      >
         <audio src="./clip/183_carwash.wav" id="C" class="clip"></audio> C
       </button>
     </div>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
